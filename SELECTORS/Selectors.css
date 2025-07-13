@@ -1,0 +1,60 @@
+/* 1.Element Selectors */
+/* Element Selector selects HTML elements by there name... */
+div {
+    background-color: aqua;
+}
+
+p {
+    background-color: aquamarine;
+}
+
+/* 2.Class Selector */
+/* Class Selector is used to select element of specific class...*/
+.red {
+    background-color: black;
+    color: white;
+}
+
+/* 3.ID Selector */
+/* ID Selector is used to select element having a unique ID....*/
+#div1 {
+    background-color: red;
+    color: white;
+}
+
+/* 4.Child Selector */
+/* Child Selector is used to select specific element inside an element*/
+div>p {
+    background-color: blueviolet;
+    color: white;
+}
+
+/* 5.Descendant Selector*/
+/* It is used to select an element inside an element which is inside another element...*/
+div h1 {
+    background-color: brown;
+    color: white;
+}
+
+/* 6.Universal Selector*/
+/* It is used to select every element of HTML file...*/
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 7.Pseudo Selectors*/
+/* Used to define special state of element...*/
+a:visited {
+    color: black;
+
+}
+
+a:link {
+    color: rgb(243, 96, 5);
+}
+
+a:hover {
+    background-color: aqua;
+}
