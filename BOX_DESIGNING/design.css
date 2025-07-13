@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    padding: 20px;
+    border: 5px solid black;
+    height: 200px;
+    box-sizing: border-box;           /*Makes the total height of box equals to 200px*/
+}
+
+.first {
+    color: aqua;
+    background-color: aqua;
+    margin: 35px;
+
+}
+
+.second {
+    color: rgb(234, 10, 250);
+    background-color: rgb(234, 10, 250);
+    margin: 25px;
+}
+
+/*Margin Collapse*/
+/*If two margins collapse then larger margin will be priortized....*/
