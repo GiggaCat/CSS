@@ -1,0 +1,31 @@
+/*Element Selector has specificity of 1 points*/
+h1 {
+    color: rgb(89, 232, 7) !important;            
+    /*Using important keyword has specificity over 10000 points*/
+}
+
+/*ID Selectors has specificity of 100 points
+#greet {
+    color: blue;
+}*/
+
+/*Class Selectors has specificity of 10 points*/
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.orange{
+    color: orange;
+}
+
+/*NOTE:- If Selector is same then CSS style will be priortize on basis of positioning*/
+
+/*Attribute Selector*/
+/*Used to select specific attribute*/
+[color=col]{
+    color: rgb(242, 202, 1);
+}
